@@ -2,37 +2,11 @@
 import Link from "next/link"
 import { Navigation } from "../components/navigation"
 export default function Portfolio() {
-   /*  return (
-        <main>
-        <h1>My Portfolio</h1>
-
-        <div className="grid gap-5 sm:grid-cols-2">
-            <div className=" box-content md:border ">
-            
-            Example Project 1
-        
-                    
-            </div>
-            <div className=" box-content md:border ">
-                
-                    Example Project 3
-                
-                
-            </div>
-            <div className=" box-content md:border ">
-                
-                    Example Project 3
-                
-                
-            </div>
-        </div>
-        
-        </main>
-    ) */
+   
         const projects = [
             { title: 'Example Project 1', href: '/portfolio/project1' },
-            { title: 'Example Project 2', href: '/portfolio/project2' },
-            { title: 'Example Project 3', href: '/portfolio/project3' },
+            { title: 'Youtube Search', href: 'https://phenomenal-fudge-fe3934.netlify.app/' },
+            { title: 'Simple Calculator', href: 'https://resilient-queijadas-23e832.netlify.app/' },
           ]
         
           return (
